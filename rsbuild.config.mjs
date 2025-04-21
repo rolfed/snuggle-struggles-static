@@ -8,12 +8,6 @@ export default defineConfig({
         assetsInclude: [/\.ttf$/, /\.woff2?$/, /\.png$/], // include PNG here
     },
     output: {
-        distPath: {
-            // image: 'assets',
-            // svg: 'assets',
-            // font: 'assets',
-            // media: 'assets'
-        },
         assetPrefix: './',
     }
 });
