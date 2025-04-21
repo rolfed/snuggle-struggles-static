@@ -9,11 +9,11 @@ export default defineConfig({
     },
     output: {
         distPath: {
-            image: 'assets',
-            svg: 'assets',
-            font: 'assets',
-            media: 'assets'
+            // image: 'assets',
+            // svg: 'assets',
+            // font: 'assets',
+            // media: 'assets'
         },
-        assetPrefix: './snuggle-struggles-static',
+        assetPrefix: './',
     }
 });

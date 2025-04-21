@@ -91,9 +91,14 @@
         font-weight: var(--font-weight-light);
         color: var(--color-gray-950);
     }
+
+    .bg-hero {
+        background-image: url('../assets/images/hero.jpg');
+    }
+
+    .animate-gradient-cycle {
+        animation: cycle-gradients 2s linear infinite;
+        background-size: 200% 200%;
+    }
 }
 
-.animate-gradient-cycle {
-    animation: cycle-gradients 2s linear infinite;
-    background-size: 200% 200%;
-}
