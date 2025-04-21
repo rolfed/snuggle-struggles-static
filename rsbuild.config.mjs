@@ -14,6 +14,6 @@ export default defineConfig({
             font: 'assets',
             media: 'assets'
         },
-        assetPrefix: './',
+        assetPrefix: './snuggle-struggles-static',
     }
 });
