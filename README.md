@@ -1,0 +1,1 @@
+Snuggle Struggle Static Website
