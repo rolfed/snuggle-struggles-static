@@ -1,7 +1,3 @@
-import './index.css';
+import './styles/tailwind.css';
 
-document.querySelector('#root').innerHTML = `
-<div class="content">
-</div>
-<h1 class="text-3xl font-bold underline">Hello world!</h1>
-`;
+console.log('Hello index.js');

@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Hind';
-  src: '../assets/font/Hind-Light.ttf') format('truetype');
+  src: '@/static/fonts/Hind-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'Hind';
-  src: '../assets/fonts/Hind-Regular.ttf') format('truetype');
+  src: '@/static/fonts/Hind-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'Hind';
-  src: '../assets/fonts/Hind-Medium.ttf') format('truetype');
+  src: '@/static/fonts/Hind-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -26,7 +26,7 @@
 
 @font-face {
   font-family: 'Hind';
-  src: '../assets/fonts/Hind-SemiBold.ttf') format('truetype');
+  src: '@/static/fonts/Hind-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -34,7 +34,7 @@
 
 @font-face {
   font-family: 'Hind';
-  src: '../assets/fonts/Hind-Bold.ttf') format('truetype');
+  src: '@/static/fonts/Hind-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -42,7 +42,7 @@
 
 @font-face {
   font-family: 'Montserrat';
-  src: '../assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  src: '@/static/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
