@@ -5,10 +5,15 @@ export default defineConfig({
         template: './src/index.html'
     },
     source: {
-        assetsInclude: [/\.ttf%/],
+        assetsInclude: [/\.ttf$/, /\.woff2?$/, /\.png$/], // include PNG here
     },
     output: {
-        assetPrefix: '/snuggle-struggles-static',
-        assetsPrefix: './',
+        distPath: {
+            image: 'assets',
+            svg: 'assets',
+            font: 'assets',
+            media: 'assets'
+        },
+        assetPrefix: './',
     }
 });

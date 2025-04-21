@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Hind';
-  src: '@/static/fonts/Hind-Light.ttf') format('truetype');
+  src: '/fonts/Hind-Light.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -10,7 +10,7 @@
 
 @font-face {
   font-family: 'Hind';
-  src: '@/static/fonts/Hind-Regular.ttf') format('truetype');
+  src: '/fonts/Hind-Regular.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: 'Hind';
-  src: '@/static/fonts/Hind-Medium.ttf') format('truetype');
+  src: '/fonts/Hind-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -26,7 +26,7 @@
 
 @font-face {
   font-family: 'Hind';
-  src: '@/static/fonts/Hind-SemiBold.ttf') format('truetype');
+  src: '/fonts/Hind-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -34,7 +34,7 @@
 
 @font-face {
   font-family: 'Hind';
-  src: '@/static/fonts/Hind-Bold.ttf') format('truetype');
+  src: '/fonts/Hind-Bold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -42,7 +42,7 @@
 
 @font-face {
   font-family: 'Montserrat';
-  src: '@/static/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  src: '/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
   font-weight: 100 900;
   font-style: normal;
   font-display: swap;
@@ -55,4 +55,45 @@
 
   --font-sans: var(--font-content); 
   --font-serif: var(--font-title);
+
+
+ @keyframes cycle-gradients {
+    0% {
+      background-image: linear-gradient(135deg, #f43f5e, #fb923c);
+    }
+    25% {
+      background-image: linear-gradient(135deg, #ec4899, #8b5cf6);
+    }
+    50% {
+      background-image: linear-gradient(135deg, #0ea5e9, #22d3ee);
+    }
+    75% {
+      background-image: linear-gradient(135deg, #34d399, #10b981);
+    }
+    100% {
+      background-image: linear-gradient(135deg, #f43f5e, #fb923c);
+    }
+  }
+
+}
+
+@layer components {
+    h1 {
+        font-family: var(--font-title);
+        font-size: var(--text-2xl--line-height);
+        font-weight: var(--font-weight-semibold);
+        color: var(--color-gray-950);
+    }
+
+    h2 {
+        font-family: var(--font-content);
+        font-size: var(--text-2xl--line-height);
+        font-weight: var(--font-weight-light);
+        color: var(--color-gray-950);
+    }
+}
+
+.animate-gradient-cycle {
+    animation: cycle-gradients 2s linear infinite;
+    background-size: 200% 200%;
 }
