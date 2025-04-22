@@ -5,9 +5,12 @@ export default defineConfig({
         template: './src/index.html'
     },
     source: {
-        assetsInclude: [/\.ttf$/, /\.woff2?$/, /\.png$/], // include PNG here
+        assetsInclude: [/\.ttf$/, /\.woff2?$/, /\.png$/, /\.jpg$/, /\.jpeg$/], // include PNG here
     },
     output: {
-        assetPrefix: './',
+        assetPrefix: '/',
+        filename: {
+            asset: 'static/assets/[name].[hash][ext]'
+        }
     }
 });

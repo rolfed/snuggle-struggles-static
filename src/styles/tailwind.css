@@ -93,7 +93,7 @@
     }
 
     .bg-hero {
-        background-image: url('../assets/images/hero.jpg');
+        /* background-image: url('/images/hero.jpg'); */
     }
 
     .animate-gradient-cycle {
