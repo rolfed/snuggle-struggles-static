@@ -15,11 +15,9 @@
                     <h2 class="text-center pt-1">Summer/Fall 2025</h2>
                 </div>
 
-                <div class="absolute left-1/2 top-2/3 -translate-x-1/2 w-full max-w-md px-4">
+                <div class="absolute left-1/2 top-3/5 -translate-x-1/2 w-full max-w-md px-4">
                     <form
                         id="sib-form"
-                        method="POST"
-                        action="https://sibforms.com/serve/MUIFAMpl7CFtI_lJSUXL8jE2WDVwiyaFGuyqHG2lJ-bu_-UuiWfzAqHX-DyzCV7wlvtlcoQMZ0prP5sxjLL0rbBC9Y_gT1hz0AAyhG6GTFmEDRaR89PDAUPBvxG_kgljpY6KEwSbLEuCGKO32tcoU1Q7JbwVDo-syEg3CCeO6cwueEVkx21O3JN_oMVVFFyiXTKW3kR5SYJATfGc"
                         class="bg-transparent text-white space-y-4"
                     >
                         <label for="EMAIL" class="block text-sm font-semibold">
@@ -52,6 +50,32 @@
                         <input type="hidden" name="locale" value="en" />
                         <input type="hidden" name="html_type" value="simple" />
                     </form>
+
+                    <!-- Success Message -->
+                    <div id="confirmation-message" class="hidden -translate-x-1/2 -rotate-[13deg] text-lg/8 bg-zinc-900/25 p-5 gradient-border">
+                        <p class="text-md text-white">We just sent you a confirmation email! Make sure to check it.</p>
+
+                        <div class="text-white text-xl mt-4">
+                            <p class="mb-2">Want a <span class="text-white underline underline-offset-8">sneak peak</span> at what we're building?</p>
+
+                            <p>
+                                <a href="https://www.instagram.com/snugglestrugglesco?igsh=bWozdHRvMm5kZXg0&utm_source=qr" 
+                                   target="_blank"
+                                   rel="noopener noreferrer"
+                                   class="underline underline-offset-8 text-base hover:underline-offset-7 hover:text-xl transition-all duration-100">
+                                   Click here 
+                                </a>
+                                and tag us in your post.
+                                We're giving early access to the ones who spread the word.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Error Message -->
+                    <div id="error-message" class="hidden">
+                        <p>Hmmm... something went wrong.</p>
+                        <p>No stress! Just shoot us a message on Instagram and we'lle make sure you're added to the list.</p>
+                    </div>
                 </div>
 
 
