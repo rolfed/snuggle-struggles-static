@@ -49,6 +49,5 @@ jobs:
           path: dist/
 
       - name: Deploy to GitHub Pages
-        needs: build
         id: deployment
         uses: actions/deploy-pages@v4
