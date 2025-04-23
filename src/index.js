@@ -14,6 +14,3 @@ const heroEl = document.querySelector('#hero');
 if (heroEl) {
     heroEl.style.backgroundImage = `url(${hero})`;
 }
-
-window.addEventListener('DOMContentLoaded', () => {
-});
