@@ -10,7 +10,7 @@ export default defineConfig({
         assetsInclude: [/\.ttf$/, /\.woff2?$/, /\.png$/, /\.jpg$/, /\.jpeg$/], // include PNG here
     },
     output: {
-        assetPrefix: isProd ? '/snuggle-struggles-static' : '/',
+        assetPrefix: isProd ? '/' : '/',
         filename: {
             asset: 'static/assets/[name].[hash][ext]'
         }
